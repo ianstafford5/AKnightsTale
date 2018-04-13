@@ -166,3 +166,4 @@ C:\Users\istaf\source\repos\New folder\AKnightsTale\AKnightsTale\obj\Debug\AKnig
 C:\Users\istaf\source\repos\New folder\AKnightsTale\AKnightsTale\obj\Debug\AKnightsTale.csproj.CoreCompileInputs.cache
 C:\Users\istaf\source\repos\New folder\AKnightsTale\AKnightsTale\obj\Debug\AKnightsTale.dll
 C:\Users\istaf\source\repos\New folder\AKnightsTale\AKnightsTale\obj\Debug\AKnightsTale.pdb
+C:\Users\istaf\source\repos\New folder\AKnightsTale\AKnightsTale\bin\App_Data\uploads\test.txt

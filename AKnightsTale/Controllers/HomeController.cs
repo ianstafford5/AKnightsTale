@@ -4,6 +4,7 @@ using Microsoft.AspNet.Identity.Owin;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.IO;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
@@ -73,6 +74,12 @@ namespace AKnightsTale.Controllers
                 select s;
 
             return View(model);
+        }
+
+        public FileResult Download()
+        {
+            var FileVirtualPath = "~/App_Data/uploads/" + "ChartImg.png";
+            return File(FileVirtualPath, "application/force-download", Path.GetFileName(FileVirtualPath));
         }
     }
 }
