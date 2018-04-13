@@ -78,7 +78,7 @@ namespace AKnightsTale.Controllers
 
         public FileResult Download()
         {
-            var FileVirtualPath = "~/App_Data/uploads/" + "c74.jpg";
+            var FileVirtualPath = "~/App_Data/uploads/" + "ChartImg.png";
             return File(FileVirtualPath, "application/force-download", Path.GetFileName(FileVirtualPath));
         }
     }
