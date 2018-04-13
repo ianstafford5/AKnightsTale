@@ -69,7 +69,7 @@
     font-family: 'Luckiest Guy';
     float: left;
     padding: 15px 15px;
-    font-size: 40px;
+    font-size: 35px;
     line-height: 20px;
 }
 
@@ -184,7 +184,7 @@
     font-size: 50px;
 }
 
-.two {
+.two, h4 {
     font-family: 'Luckiest Guy';
     color: #fff;
     font-size: 30px;
@@ -192,4 +192,33 @@
 
 .gsHeaders{
     font-size:100px;
+}
+
+#loginForm, #registerForm {
+    background-color: white;
+    border-radius: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 20px;
+}
+
+#loginForm {
+    background-color: white;
+    border-radius: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 20px;
+}
+
+h2 {
+    font-family: 'Luckiest Guy';
+    background: -webkit-linear-gradient(#ff9900, #ffcc00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+    margin-top:50px;
 }
