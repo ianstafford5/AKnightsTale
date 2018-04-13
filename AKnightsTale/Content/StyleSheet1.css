@@ -102,12 +102,12 @@
 }
 
 #sliderTab {
-    height: 450px;
+    height: 445px;
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 100;
 }
 
-/* GENERAL BUTTON STYLING */
+/* Download Button Styling */
 .download-btn,
 .download-btn::after {
     -webkit-transition: all 0.3s;
@@ -226,5 +226,17 @@ h2 {
 @media only screen and (max-width: 600px) {
     .title h1 {
         font-size: 45px;
+    }
+
+    .table th {
+        font-size: 25px;
+    }
+
+    .one{
+        font-size: 30px;
+    }
+
+    .two {
+        font-size: 20px;
     }
 }
