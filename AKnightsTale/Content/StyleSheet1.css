@@ -11,6 +11,10 @@
     background-size: cover;
 }
 
+html, body {
+    height: 100%;
+}
+
 @font-face {
     font-family: "Luckiest Guy";
     src: url("/fonts/luckiestguy.ttf");
