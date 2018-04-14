@@ -173,6 +173,14 @@
     margin-top: 20px;
 }
 
+.sHead {
+    font-family: 'Luckiest Guy';
+    color: #fff;
+    font-size: 25px;
+    height: 50px;
+    letter-spacing: 2px;
+    padding-top: 10px;
+}
 
 .one {
     font-family: 'Luckiest Guy';
@@ -247,11 +255,23 @@ canvas {
     color: #fff !important;
 }
 
+.gsHeader {
+    font-family: 'Luckiest Guy';
+    color: #fff;
+    font-size: 1.5em;
+    height: 50px;
+    letter-spacing: 2px;
+    padding-top: 10px;
+}
+
 @media only screen and (max-width: 600px) {
     .title h1 {
         font-size: 45px;
     }
 
+    .sHead {
+        font-size: 20px;
+    }
 
     .one{
         font-size: 20px;
@@ -262,7 +282,10 @@ canvas {
     }
 
     .gsHeader {
-        font-size: .1em;
+        font-size: .9em;
     }
 
+    .button-text {
+        display: none;
+    }
 }
