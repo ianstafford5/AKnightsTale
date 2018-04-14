@@ -196,10 +196,6 @@ th {
     font-size: 30px;
 }
 
-.gsHeaders{
-    font-size:100px;
-}
-
 #loginForm, #registerForm {
     background-color: white;
     border-radius: 15px;
