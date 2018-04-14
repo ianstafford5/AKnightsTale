@@ -52,32 +52,32 @@
     {
         <tr>
             <td>
-                <div class="two">
+                <div class="gsBody">
                     @Html.DisplayFor(modelItem => item.DateTime)
                 </div>
             </td>
             <td>
-                <div class="two">
+                <div class="gsBody">
                     @Html.DisplayFor(modelItem => item.Checkpoint)
                 </div>
             </td>
             <td>
-                <div class="two">
+                <div class="gsBody">
                     @Html.DisplayFor(modelItem => item.Lives)
                 </div>
             </td>
             <td>
-                <div class="two">                    
+                <div class="gsBody">                    
                     @Html.DisplayFor(modelItem => item.GemCount)
                 </div>
             </td>
             <td>
-                <div class="two">
+                <div class="gsBody">
                     @Html.DisplayFor(modelItem => item.CoinCount)
                 </div>
             </td>
             <td>
-                <div class="two">
+                <div class="gsBody">
                     @{
                         var hours = Math.Floor((@item.Time % 216000) / 3600).ToString("00");
                         var minutes = Math.Floor((@item.Time % 3600) / 60).ToString("00");

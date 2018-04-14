@@ -264,6 +264,12 @@ canvas {
     padding-top: 10px;
 }
 
+.gsBody {
+    font-family: 'Luckiest Guy';
+    color: #fff;
+    font-size: 30px;
+}
+
 @media only screen and (max-width: 600px) {
     .title h1 {
         font-size: 45px;
@@ -282,10 +288,14 @@ canvas {
     }
 
     .gsHeader {
-        font-size: .9em;
+        font-size: .7em;
     }
 
     .button-text {
         display: none;
+    }
+
+    .gsBody {
+        font-size: .8em;
     }
 }
