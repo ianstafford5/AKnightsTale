@@ -173,14 +173,6 @@
     margin-top: 20px;
 }
 
-th {
-    font-family: 'Luckiest Guy';
-    color: #fff;
-    font-size: 25px;
-    height: 50px;
-    letter-spacing: 2px;
-    padding-top: 10px;
-}
 
 .one {
     font-family: 'Luckiest Guy';
@@ -260,9 +252,6 @@ canvas {
         font-size: 45px;
     }
 
-    th {
-        font-size: 20px;
-    }
 
     .one{
         font-size: 20px;
@@ -271,4 +260,9 @@ canvas {
     .two {
         font-size: 15px;
     }
+
+    .gsHeader {
+        font-size: .1em;
+    }
+
 }
