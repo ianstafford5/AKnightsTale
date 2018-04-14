@@ -3,9 +3,8 @@
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    /*background-size: 100% 100%;*/
-    /* Full height */
-    height: 100%;
+    background-size: 100% 100%;
+    
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
@@ -131,6 +130,7 @@
     font-size: 1.6em;
     font-weight: bold;
     margin: 1em auto;
+    margin-top: 50px;
     padding: 1em 2em;
     position: relative;
     text-transform: uppercase;
@@ -170,7 +170,7 @@
 }
 
 .about{
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 th {
@@ -178,6 +178,7 @@ th {
     color: #fff;
     font-size: 25px;
     height: 50px;
+    letter-spacing: 2px;
     padding-top: 10px;
 }
 
@@ -226,6 +227,36 @@ h2 {
     -webkit-text-fill-color: transparent;
     font-size: 50px;
     margin-top:50px;
+}
+
+#head {
+    font-family: 'Luckiest Guy';
+    background: -webkit-linear-gradient(#ff9900, #ffcc00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+#stat {
+    font-family: 'Luckiest Guy';
+    color: #fff;
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+canvas {
+    background-color: white;
+    border-radius: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 20px;
+}
+
+#downloadHead {
+    color: #fff !important;
 }
 
 @media only screen and (max-width: 600px) {

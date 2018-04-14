@@ -284,29 +284,29 @@ namespace AKnightsTale.Controllers
         }
 
 
-        [HttpDelete]
-        [Route("gamestate")]
-        public IHttpActionResult DeleteGameState(DeleteGameStateForm delete)
-        {
-            using (ApplicationDbContext db = new ApplicationDbContext())
-            {
-                try
-                {
-                    if (ModelState.IsValid)
-                    {
-                        var oldestGameState = db.GameStates.Where(g => g.ID == delete.ID).First();
-                        db.GameStates.Remove(oldestGameState);
-                        db.SaveChanges();
-                        return Ok();
-                    }
-                    return BadRequest();
-                }
-                catch (Exception e)
-                {
-                    return BadRequest(e.ToString());
-                }
-            }
-        }
+        //[HttpDelete]
+        //[Route("gamestate")]
+        //public IHttpActionResult DeleteGameState(DeleteGameStateForm delete)
+        //{
+        //    using (ApplicationDbContext db = new ApplicationDbContext())
+        //    {
+        //        try
+        //        {
+        //            if (ModelState.IsValid)
+        //            {
+        //                var oldestGameState = db.GameStates.Where(g => g.ID == delete.ID).First();
+        //                db.GameStates.Remove(oldestGameState);
+        //                db.SaveChanges();
+        //                return Ok();
+        //            }
+        //            return BadRequest();
+        //        }
+        //        catch (Exception e)
+        //        {
+        //            return BadRequest(e.ToString());
+        //        }
+        //    }
+        //}
 
     }
 }
