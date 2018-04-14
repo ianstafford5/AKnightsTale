@@ -288,7 +288,7 @@ canvas {
     }
 
     .gsHeader {
-        font-size: .7em;
+        font-size: .6em;
     }
 
     .button-text {
@@ -296,6 +296,6 @@ canvas {
     }
 
     .gsBody {
-        font-size: .8em;
+        font-size: .7em;
     }
 }
