@@ -34,7 +34,7 @@ namespace AKnightsTale.Controllers
                 }
                 catch (Exception e)
                 {
-                    return NotFound();
+                    return NotFound(e.ToString());
                 }
             }
         }
@@ -73,6 +73,7 @@ namespace AKnightsTale.Controllers
                         }
                         catch (Exception e)
                         {
+                            Debug.WriteLine(e.ToString());
                             HttpResponseMessage badRequest = Request.CreateResponse(HttpStatusCode.BadRequest);
                             return badRequest;
                         }
@@ -162,7 +163,7 @@ namespace AKnightsTale.Controllers
                 }
                 catch (Exception e)
                 {
-                    return BadRequest();
+                    return BadRequest(e.ToString());
                 }
             }
         }
@@ -198,7 +199,7 @@ namespace AKnightsTale.Controllers
                     return BadRequest();
                 }
             }
-            return BadRequest();
+            return BadRequest(e.ToString());
         }
 
         [HttpGet]
@@ -225,7 +226,7 @@ namespace AKnightsTale.Controllers
                 }
                 catch (Exception e)
                 {
-                    return BadRequest();
+                    return BadRequest(e.ToString());
                 }
             }
         }
@@ -258,7 +259,7 @@ namespace AKnightsTale.Controllers
                 }
                 catch (Exception e)
                 {
-                    return BadRequest(e.ToString());
+                    return BadRequest(e.ToString(e.ToString()));
                 }
             }
         }
