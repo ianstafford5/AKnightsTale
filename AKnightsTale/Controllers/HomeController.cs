@@ -122,7 +122,7 @@ namespace AKnightsTale.Controllers
             ViewBag.Checkpoint4Count = checkpoint4Count;
             ViewBag.Scores = scores;
             ViewBag.Counts = count;
-            ViewBag.Lives = lives;
+            ViewBag.Lives = lives-3;
             ViewBag.Coins = coins/10;
             ViewBag.Gems = gems;
             ViewBag.Downloads = downloads;
