@@ -80,7 +80,7 @@ namespace AKnightsTale.Controllers
         {
             downloads++;
             Debug.WriteLine(downloads);
-            var FileVirtualPath = "~/App_Data/uploads/" + "c74.jpg";
+            var FileVirtualPath = "~/App_Data/uploads/" + "AKnightsTale.exe";
             return File(FileVirtualPath, "application/force-download", Path.GetFileName(FileVirtualPath));
         }
 
