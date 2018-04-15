@@ -233,8 +233,7 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Data\uploads\c74.jpg" />
-    <Content Include="App_Data\uploads\ChartImg.png" />
+    <Content Include="App_Data\uploads\AKnightsTale.exe" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\StyleSheet1.css" />
