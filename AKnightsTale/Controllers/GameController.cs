@@ -34,7 +34,8 @@ namespace AKnightsTale.Controllers
                 }
                 catch (Exception e)
                 {
-                    return NotFound(e.ToString());
+                    Debug.WriteLine(e.ToString());
+                    return NotFound();
                 }
             }
         }
@@ -199,7 +200,7 @@ namespace AKnightsTale.Controllers
                     return BadRequest();
                 }
             }
-            return BadRequest(e.ToString());
+            return BadRequest();
         }
 
         [HttpGet]
@@ -259,7 +260,7 @@ namespace AKnightsTale.Controllers
                 }
                 catch (Exception e)
                 {
-                    return BadRequest(e.ToString(e.ToString()));
+                    return BadRequest(e.ToString());
                 }
             }
         }
